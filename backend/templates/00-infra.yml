@@ -1,0 +1,63 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Code Bucket and SNS topic
+
+Parameters:
+  EmailAddress:
+    Description: email address alerts will be sent to
+    Type: String
+  RootDomain:
+    Type: String
+    Description: Root domain associated with site
+  CloudFrontCertArn:
+    Type: String
+    Description: US-East-1 wildcard certificate required for cloudfront
+  RegionalCertArn:
+    Type: String
+    Description: Eu-west-1 wildcard certificate
+  HostedZoneId:
+    Type: String
+    Description: Id of route53 hosted zone
+
+Resources:
+  CodeBucket:
+    Type: AWS::S3::Bucket
+
+  AlertSNSTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      Subscription:
+        - Endpoint: !Ref EmailAddress
+          Protocol: "email"
+
+
+Outputs:
+  AlertSNSTopicArn:
+    Description: "AlertSNSTopicArn"
+    Value: !Ref AlertSNSTopic
+    Export:
+      Name: UserManagerApp-AlertSNSTopicArn
+  CodeBucketName:
+    Description: "CodeBucketName"
+    Value: !Ref CodeBucket
+    Export:
+      Name: UserManagerApp-CodeBucketName
+  HostedZoneId:
+    Description: "HostedZoneId"
+    Value: !Ref HostedZoneId
+    Export:
+      Name: UserManagerApp-HostedZoneId
+  CloudFrontCertArn:
+    Description: "CloudFrontCertArn"
+    Value: !Ref CloudFrontCertArn
+    Export:
+      Name: UserManagerApp-CloudFrontCertArn
+  RegionalCertArn:
+    Description: "RegionalCertArn"
+    Value: !Ref RegionalCertArn
+    Export:
+      Name: UserManagerApp-RegionalCertArn
+  RootDomain:
+    Description: "RootDomain"
+    Value: !Ref RootDomain
+    Export:
+      Name: UserManagerApp-RootDomain
