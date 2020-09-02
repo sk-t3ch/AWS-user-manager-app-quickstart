@@ -2,8 +2,8 @@
 This project is an example User Manager app which allows you to register users, and monitor their usage of a service API 
 with key authentication. 
 The infrastruture is written using CloudFormation.
-* The blog post can/will be found [here](https://medium.com/@t3chflicks).
-* Live demo can/will be found [here](https://um-app.t3chflicks.org).
+* The blog post can be found [here](https://medium.com/@t3chflicks).
+* Live demo can be found [here 💽](https://um-app.t3chflicks.org).
 
 # Step By Step Instructions
 1. This project expects you to bring your own domain hosted on Route53 and with SSL certificates for both the region of your service and US-EAST-1.
