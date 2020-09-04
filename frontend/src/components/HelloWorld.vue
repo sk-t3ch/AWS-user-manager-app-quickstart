@@ -4,7 +4,7 @@
       <v-col class="mb-4" cols="12">
         <v-card color="primary px-6">
           <v-card-title class="white--text display-2 mb-1">
-            User Magement Quickstart
+            User Management Quickstart 
             <a href="https://github.com/sk-t3ch/AWS-user-manager-app" target="new">
               <v-icon dark class="mx-4">mdi-git</v-icon>
             </a>
