@@ -1,11 +1,18 @@
-# User Manager App Example with Cognito using AWS CloudFormation
-This project is an example User Manager app which allows you to register users, and monitor their usage of a service API 
-with key authentication. 
-The infrastruture is written using CloudFormation.
-* The blog post can be found [here](https://medium.com/@t3chflicks).
-* Live demo can be found [here 💽](https://um-app.t3chflicks.org).
+# [T3chFlicks](https://t3chflicks.org): AWS User Manager App Quickstart
+> Quickstart for running an example user manager app on AWS allowing users to register and user an authenticated API.
 
-# Step By Step Instructions
+### Read The Blog Post ([github](./blog_post.md)/[medium](https://t3chflicks.medium.com/users-only-quickstart-for-creating-a-saas-pt-1-user-management-3ca7e3332565))
+
+### Live demo can be found [here](https://um-app.t3chflicks.org)
+
+---
+
+
+## Architecture
+> ![architecture](./extra/images/architecture.png)
+
+
+### Step By Step Instructions
 1. This project expects you to bring your own domain hosted on Route53 and with SSL certificates for both the region of your service and US-EAST-1.
     1. [Get a domain on AWS](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) 
     1. Create a [hosted zone on Route53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html)
@@ -79,13 +86,7 @@ The infrastruture is written using CloudFormation.
       ```
 
 
-
-# How it works
-Please see Medium article for in depth breakdown [here](https://medium.com/@t3chflicks).
-### Architecture Overview
-![architecture](./extra/images/architecture.png)
-
-### Screenshots
+## Screenshots
 Home Page
 ![](./extra/images/home_page.png)
 User Page
