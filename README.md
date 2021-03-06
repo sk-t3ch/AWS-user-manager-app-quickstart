@@ -1,14 +1,16 @@
 # [T3chFlicks](https://t3chflicks.org): AWS User Manager App Quickstart
 > Quickstart for running an example user manager app on AWS allowing users to register and user an authenticated API.
+![thumbnail](./thumbnail.png)
+
+---
+
+## `tutorials/`
 
 [![Generic badge](https://img.shields.io/badge/Blog_Post-Github-orange.svg)](./blog_post.md)
 
 [![Generic badge](https://img.shields.io/badge/Blog_Post-Medium-blue.svg)](https://t3chflicks.medium.com/users-only-quickstart-for-creating-a-saas-pt-1-user-management-3ca7e3332565)
 
 [![Generic badge](https://img.shields.io/badge/Live-Demo-red.svg)](https://um-app.t3chflicks.org)
-
-
----
 
 
 ## Architecture
