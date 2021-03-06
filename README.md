@@ -1,9 +1,12 @@
 # [T3chFlicks](https://t3chflicks.org): AWS User Manager App Quickstart
 > Quickstart for running an example user manager app on AWS allowing users to register and user an authenticated API.
 
-### Read The Blog Post ([github](./blog_post.md)/[medium](https://t3chflicks.medium.com/users-only-quickstart-for-creating-a-saas-pt-1-user-management-3ca7e3332565))
+[![Generic badge](https://img.shields.io/badge/Blog_Post-Github-orange.svg)](./blog_post.md)
 
-### Live demo can be found [here](https://um-app.t3chflicks.org)
+[![Generic badge](https://img.shields.io/badge/Blog_Post-Medium-blue.svg)](https://t3chflicks.medium.com/users-only-quickstart-for-creating-a-saas-pt-1-user-management-3ca7e3332565)
+
+[![Generic badge](https://img.shields.io/badge/Live-Demo-red.svg)](https://um-app.t3chflicks.org)
+
 
 ---
 
@@ -96,3 +99,8 @@ User Page
 * [AWS Cloudfront Region](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/cnames-and-https-requirements.html)
     * AWS Region that You Request a Certificate In (for AWS Certificate Manager)
 
+---
+
+This project was created by [T3chFlicks](https://t3chflicks.org) - A tech focused education and services company.
+
+---
